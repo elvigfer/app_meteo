@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Melted;
+    src: url(fonts/melted-font.ttf);
+  }
+body{
+    background-color: black;
+    color: white;
+}
+.ciudades{
+    font-family: Melted;
+    font-size: 24px;
+    font-variation-settings: "MLTD" 0;
+    border-bottom: 2px solid white;
+    position: relative;
+}
+.ciudad{
+    font-family: Melted;
+    font-size: 90px;
+    font-variation-settings: "MLTD" var(--melt);
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.descripcion{
+    margin: 5px 0;
+}
+.grados{
+    font-size: 70px;
+    position: absolute;
+    margin-top: 3%;
+    top: 0;
+    right: 10px;
+}
+#buscador{
+    width: 25%;
+    height: 40px;
+    margin: 15px 50px;
+    border-radius: 30px;
+    border-color: gainsboro;
+    padding-left: 15px;
+    font-family: Melted;
+    font-size: 20px;
+}
+#buscador:focus{
+    outline: pink;
+}
+#detalle{
+    font-family: Melted;
+    margin-left: 50px;
+}
+#ciudad{
+    font-size: 130px;
+    font-variation-settings: "MLTD" var(--melt);
+    margin: 0;
+}
+.hide{
+    display: none;
+}
+.show{
+    display: block;
+}
+#datos{
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    font-family: Melted;
+}
+#gradosdet{
+    font-size: 120px;
+    margin: 0;
+}
+#tiempodet{
+    font-size: 24px;
+}
+#back{
+    color: white;
+    background: none;
+    font-size: 40px;
+    border: none;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+}
+#wrapper{
+    padding: 0 50px;
+}
+.infoextra{
+    margin: 0;
+    width: 100%;
+    padding: 12px 0;
+    font-size: 24px;
+    border-bottom: 3px solid white;
+}
+#wrapperii{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#picto{
+    width: 300px;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+#infomsg{
+    font-family: Melted;
+    margin-left: 50px;
+}
