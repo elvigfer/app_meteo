@@ -21,7 +21,7 @@ body{
     margin-bottom: 5px;
 }
 .descripcion{
-    margin: 5px 0;
+    margin: 8px 0;
 }
 .grados{
     font-size: 70px;
@@ -50,7 +50,8 @@ body{
 #ciudad{
     font-size: 130px;
     font-variation-settings: "MLTD" var(--melt);
-    margin: 0;
+    margin: 50px 0 0 0;
+    padding: 0;
 }
 .hide{
     display: none;
